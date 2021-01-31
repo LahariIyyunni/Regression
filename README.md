@@ -1,4 +1,4 @@
-# SimpleRegression
+#Regression
 
 
 Simple Linear Regression
@@ -8,6 +8,7 @@ Support Vector for Regression (SVR)
 Decision Tree Classification
 Random Forest Classification
 
+Simple Linear Regression - Effect of one feature on dependent variable
 For Simple Linear Regression - linear_model module class is LinearRegression
 only fit is used here
 
@@ -20,4 +21,10 @@ LR.predict([[12]])
 from sklearn.linear_model import LinearRegression
 LR=LinearRegression()
 LR.fit(X_train,Y_train)
+LR.intercept_
+LR.coef_
 
+
+Multiple Linear Regression
+
+Effect of multiple feature on dependent variable
